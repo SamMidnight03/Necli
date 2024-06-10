@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+:root{
+    --blanco: #f0f0ee;
+    --morado: #371053;
+    --HuesoMorado: #f5e0f7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-image: url(./img/decoracion\ arriba.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: var(--blanco);
+}
+
+main{
+    width: 80%;
+    height: 60%;
+}
+
+h1{
+    font-size: 15vh;
+    text-align: right;
+    color: var(--blanco);
+    font-family: "Signika Negative", sans-serif;
+}
+
+.Formulario{
+    font-size: 30px;
+    font-family: "Signika Negative", sans-serif;
+}
+
+.tabla{
+    font-size: 25px;
+    font-family: "Signika Negative", sans-serif;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    border: 2px solid#371053;
+    border-collapse: collapse;
+  }
